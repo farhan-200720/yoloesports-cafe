@@ -35,12 +35,17 @@ export default function Home() {
               <a href="#arena" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Arena</a>
               <a href="#gallery" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Gallery</a>
               <a href="#pricing" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Pricing</a>
+<<<<<<< HEAD
               <a href="#shop" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Shop</a>
               <a href="#contact" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Contact</a>
               
               {/* NEW LOGIN BUTTON */}
                 <a href="/dashboard" className="text-xs font-semibold uppercase text-[#8b5cf6] hover:text-white transition-colors tracking-wider mr-4">Dashboard</a>
               <a href="/login" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Login</a>
+=======
+   <a href="#shop" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Shop</a>
+              <a href="#contact" className="text-xs font-semibold uppercase text-gray-400 hover:text-white transition-colors tracking-wider">Contact</a>
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
             </div>
             <a href="#pricing" className="hidden md:block btn-shine bg-gradient-to-r from-[#8b5cf6] to-[#d946ef] text-white font-bold py-2 px-5 rounded-full uppercase tracking-wider text-[10px]">
               Book Now
@@ -133,7 +138,11 @@ export default function Home() {
               <ul className="space-y-4 text-gray-300 text-lg">
                 <li className="flex items-center gap-3"><span className="text-[#8b5cf6]">▸</span> AMD Ryzen 5 7600X</li>
                 <li className="flex items-center gap-3"><span className="text-[#8b5cf6]">▸</span> NVIDIA RTX 4060</li>
+<<<<<<< HEAD
                 <li className="flex items-center gap-3"><span className="text-[#8b5cf6]"></span> 360Hz AOC Monitor</li>
+=======
+                <li className="flex items-center gap-3"><span className="text-[#8b5cf6]">▸</span> 360Hz AOC Monitor</li>
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
                 <li className="flex items-center gap-3"><span className="text-[#8b5cf6]"></span> Pro Mechanical Gear</li>
               </ul>
             </div>
@@ -179,7 +188,11 @@ export default function Home() {
             <h2 className="font-black text-4xl md:text-6xl uppercase">Gaming <span className="text-gradient">Passes</span></h2>
           </div>
 
+<<<<<<< HEAD
           <h3 className="font-bold text-xl text-white mb-8 uppercase tracking-wider reveal">️ PC Gaming Arena</h3>
+=======
+          <h3 className="font-bold text-xl text-white mb-8 uppercase tracking-wider reveal">🖥️ PC Gaming Arena</h3>
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             <div className="reveal glass glass-hover p-6 rounded-2xl flex flex-col">
               <h3 className="font-bold text-lg text-white mb-2 uppercase">1 Hour Pass</h3>
@@ -263,16 +276,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
       {/* YOLO SHOP COMING SOON */}
       <section id="shop" className="py-24 bg-[#050508] relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[#8b5cf6]/10 rounded-full blur-[150px] -z-10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="reveal glass p-12 md:p-16 rounded-3xl border border-[#8b5cf6]/20 text-center">
+<<<<<<< HEAD
+=======
+            
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
             <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 border border-[#d946ef]/30 rounded-full bg-[#d946ef]/10 backdrop-blur-sm">
               <span className="w-2 h-2 bg-[#d946ef] rounded-full animate-pulse"></span>
               <span className="text-[#d946ef] font-bold tracking-[0.2em] text-xs uppercase">Coming Soon</span>
             </div>
+<<<<<<< HEAD
             <h2 className="font-black text-4xl md:text-6xl mb-6 tracking-tight uppercase">
               YOLO <span className="text-gradient">SHOP</span>
             </h2>
@@ -286,6 +307,28 @@ export default function Home() {
         </div>
       </section>
 
+=======
+            
+            <h2 className="font-black text-4xl md:text-6xl mb-6 tracking-tight uppercase">
+              YOLO <span className="text-gradient">SHOP</span>
+            </h2>
+            
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto font-light leading-relaxed mb-10">
+              Level up your setup and rep the squad. Premium gaming peripherals, custom jerseys, and exclusive merch dropping soon.
+            </p>
+            
+            <a 
+              href="https://wa.me/918169913338?text=Hi,%20I%20want%20to%20join%20the%20YOLO%20Shop%20waitlist!" 
+              target="_blank" 
+              className="btn-shine inline-block bg-gradient-to-r from-[#8b5cf6] to-[#d946ef] text-white font-bold py-4 px-10 rounded-xl hover:shadow-[0_0_30px_rgba(217,70,239,0.5)] transition-all uppercase tracking-widest text-sm"
+            >
+              Join Waitlist
+            </a>
+
+          </div>
+        </div>
+      </section>
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
       {/* CONTACT */}
       <section id="contact" className="py-24 bg-[#0c0c14] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

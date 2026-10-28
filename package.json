@@ -9,7 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@supabase/supabase-js": "^2.118.0",
+=======
+>>>>>>> ff20b194e07c16d02154a4afdc7fba7e6baed59c
     "next": "16.4.3",
     "razorpay": "^2.9.8",
     "react": "19.3.0",
