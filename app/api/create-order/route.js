@@ -13,7 +13,7 @@ export async function POST(request) {
     });
 
     const options = {
-      amount: amount * 100, // Razorpay expects amount in paise
+      amount: amount * 100, 
       currency: 'INR',
       receipt: `receipt_${Date.now()}`,
     };
